@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.3)
+project(RaceCondition)
+link_libraries(-lrt)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+add_executable(P1 P1.cpp Constants.h)
+add_executable(P2 P2.cpp Constants.h)
